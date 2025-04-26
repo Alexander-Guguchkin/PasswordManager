@@ -48,7 +48,7 @@ const MaterialForm = () => {
             }}
         >
             <Typography variant="h5" gutterBottom align="center">
-                Add password
+                Добавить пароль
             </Typography>
 
             {/* Выпадающий список */}
@@ -92,21 +92,6 @@ const MaterialForm = () => {
                 fullWidth
                 required
             />
-
-
-            {/* Чекбокс */}
-            <FormControlLabel
-                control={
-                    <Checkbox
-                        name="remember"
-                        checked={formData.remember}
-                        onChange={handleChange}
-                        color="primary"
-                    />
-                }
-                label="Remember me"
-            />
-
 
             {/* Кнопка отправки */}
             <Button
